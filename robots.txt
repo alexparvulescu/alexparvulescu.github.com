@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+Sitemap: http://www.pfa-labs.com/sitemap.xml
+

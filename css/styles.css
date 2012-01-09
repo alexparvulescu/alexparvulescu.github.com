@@ -1,0 +1,129 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  color:#111111;
+  font-family:Georgia,"Times New Roman",Times,serif;
+  font-size:16px;
+  font-size-adjust:none;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:36px;
+  text-align:center;
+}
+
+h1,h2 {
+font-weight:normal;
+letter-spacing:-3px;
+padding:20px 0;
+word-spacing:0.1em;
+color: black;
+font-size: 2.2em;
+cursor: default;
+}
+
+p {
+color: gray;
+font-size: 1.4em;
+}
+
+p a {
+color: #9F26F6;
+font-weight: bold;
+}
+
+#logo {
+	display: block;
+	background: white url(../img/pfa-labs.jpg) no-repeat scroll;
+	width: 300px;
+	height: 300px;
+	margin: 0px;
+	padding: 0px;
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+
+#footer {
+	background: white none repeat scroll 0 0;
+	color: gray;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	cursor: default;
+	float: left;
+	clear:both;
+}
+
+#wrapper {
+	width: 100%;
+	text-align: left;
+	margin-top: 210px;
+}
+
+#header {
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+#menu {
+	list-style: none;
+}
+
+#menu li {
+	font-size: 2.5em;
+	margin: 0 15px;
+	padding: 5px;
+	display: inline;
+}
+
+#menu li span {
+	color: silver;
+	cursor: default;
+	font-weight: bold;
+}
+
+#menu li a {
+	color: #9F26F6;
+	cursor: default;
+	text-decoration: none;
+}
+
+#content {
+	padding: 25px 0 0 75px;
+	font-size:12px;
+	font-weight:normal;
+	padding-bottom:10px;
+	text-align:left;
+float:left;
+width:40%;
+line-height:25px;
+	
+}
+
+
+ul.projects {
+	list-style: none;
+	color: gray;
+}
+
+ul.projects li {
+	font-size: 1.5em;
+	padding: 5px;
+}
+
+ul.projects li.contact {
+	float: left;
+	width:45%;
+}
+
+ul.projects li a {
+	color: #9F26F6;
+	font-weight: bold;
+}
+
+
