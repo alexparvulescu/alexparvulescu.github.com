@@ -5,29 +5,23 @@
     height="20"
     author="Alex Parvulescu"
     author_email="alex@pfalabs.com">
-
-    <!-- Declare feature dependencies. -->
-
-    <!-- This one is not specific to Gmail contextual gadgets. -->
     <Require feature="dynamic-height"/>
-
-    <!-- The next feature, google.contentmatch, is required for all
-     Gmail contextual gadgets.
-     <Param> - specify one or more comma-separated extractor IDs in
-     a param named "extractors". This line is overridden by the extractor ID
-     in the manifest, but is still expected to be present. -->
     <Require feature="google.contentmatch">
       <Param name="extractors">
         google.com:HelloWorld
       </Param>
     </Require>
-
   </ModulePrefs>
-
-  <!-- Define the content type and display location. The settings
-   "html" and "card" are required for all Gmail contextual gadgets. -->
   <Content type="html" view="card">
-    <![CDATA[
+<![CDATA[
+<center>
+<table id=thetab style="border-style:none;font-size:10pt;font-family:courier new;" cellpadding=0 cellspacing=6>
+<tr><th>Jcr Links Found</th></tr>
+<tr><td>-none-</td></tr>
+</table>
+</center>
+
+<script>
         <!-- Fetch the array of content matches. -->
         matches = google.contentmatch.getContentMatches();
         var matchList = document.createElement('UL');
@@ -46,7 +40,7 @@
         document.body.appendChild(matchList);
         gadgets.window.adjustHeight(100);
       </script>
-    ]]>
+]]>
   </Content>
 </Module>
 
