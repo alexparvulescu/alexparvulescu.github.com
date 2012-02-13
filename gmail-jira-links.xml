@@ -8,38 +8,18 @@
     <Require feature="dynamic-height"/>
     <Require feature="google.contentmatch">
       <Param name="extractors">
-        google.com:HelloWorld
+        google.com:EmailBodyExtractor
       </Param>
     </Require>
   </ModulePrefs>
   <Content type="html" view="card">
 <![CDATA[
 <center>
-<table id=thetab style="border-style:none;font-size:10pt;font-family:courier new;" cellpadding=0 cellspacing=6>
+<table id=thetab cellpadding=0 cellspacing=6>
 <tr><th>Jcr Links Found</th></tr>
 <tr><td>-none-</td></tr>
 </table>
 </center>
-
-<script>
-        <!-- Fetch the array of content matches. -->
-        matches = google.contentmatch.getContentMatches();
-        var matchList = document.createElement('UL');
-        var listItem;
-        var extractedText;
-
-        <!-- Iterate through the array and display output for each match. -->
-        for (var match in matches) {
-          for (var key in matches[match]) {
-            listItem = document.createElement('LI');
-            extractedText = document.createTextNode(key + ": " + matches[match][key]);
-            listItem.appendChild(extractedText);
-            matchList.appendChild(listItem);
-          }
-        }
-        document.body.appendChild(matchList);
-        gadgets.window.adjustHeight(100);
-      </script>
 ]]>
   </Content>
 </Module>
