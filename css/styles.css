@@ -40,10 +40,9 @@ p a {
   display: block;
   background: white url(../img/pfa-labs.jpg) no-repeat scroll;
   width: 300px;
-  height: 300px;
+  height: 280px;
   margin: 0px;
   padding: 0px;
-  float:left;
 }
 
 #content {
@@ -54,6 +53,7 @@ p a {
   text-align:left;
   float:left;
   line-height:25px;
+width:40%;
 
 }
 
@@ -69,6 +69,9 @@ ul li {
   width:45%;
 }
 
+ul li.p {
+  width:75%;
+}
 ul li a {
   color: #9F26F6;
   font-weight: bold;
