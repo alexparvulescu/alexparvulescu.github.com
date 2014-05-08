@@ -1,0 +1,77 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.container {
+  display: block;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+
+.container-inner {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+}
+
+.square {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+}
+
+.sh {
+  background: url("../img/v2/square3.png") no-repeat scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
+}
+
+.logo {
+  background: url("../img/v2/pfa_labs_logo.png") no-repeat scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
+  float: right;
+  height: 220px;
+  width: 220px;
+}
+
+.team {
+  background: url("../img/v2/team_pfalabs.png") no-repeat scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
+  float: right;
+  height: 217px;
+  width: 217px;
+}
+
+p {
+    float: right;
+    width: 215px;
+}
+
+a {
+  color: #9F26F6;
+}
+
+.column {
+  font-size:12px;
+  font-weight:normal;
+  text-align:left;
+  line-height:25px;
+}
+
+ul {
+  list-style: none;
+  color: gray;
+}
+
