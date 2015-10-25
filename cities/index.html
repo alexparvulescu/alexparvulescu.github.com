@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Cities</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  </head>
+  <body>
+  <div id="map"></div>
+  <script type="text/javascript">
+      function initialize() {
+        var styles = [ { "stylers": [ { "saturation": -100 } ] },{ "featureType": "road", "elementType": "geometry", "stylers": [ { "lightness": 100 } ] },{ "featureType": "water", "elementType": "geometry", "stylers": [ { "color": "#18bc9c" } ] }];
+        var styledMap = new google.maps.StyledMapType(styles, {name: "Styled Map"});
+        var mapOptions = {
+          center: new google.maps.LatLng(48.583, 7.7475),
+          zoom: 4,
+          disableDefaultUI: true,
+          zoomControl: true,
+          zoomControlOptions: {
+           style: google.maps.ZoomControlStyle.SMALL
+          },
+          mapTypeControlOptions: {
+            mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+          }
+        };
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        map.mapTypes.set('map_style', styledMap);
+        map.setMapTypeId('map_style');
+
+        var c = [];
+        $.ajax({
+          url: "cities.json",
+          dataType: "json",
+          success: function (data) {
+            c = data;
+          },
+          async: false
+        });
+        $.each(c.Cities, function(i, v) {
+          var marker = new google.maps.Marker({ position: {lat: v.lat, lng: v.lng}, map: map, title: v.name });
+        });
+      }
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwf3tVI-sJ8sHrhjNL94t1N0PSAAtkDTw&callback=initialize"></script>
+  </body>
+</html>
