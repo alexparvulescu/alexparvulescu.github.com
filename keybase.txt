@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/stillalex
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://pfalabs.com
+  * I am stillalex (https://keybase.io/stillalex) on keybase.
+  * I have a public key ASBKLt6xBBpZupBfguutwSzPlJqDCRGKjZO9mJitTEdCqwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01204a2edeb1041a59ba905f82ebadc12ccf949a8309118a8d93bd9898ad4c4742ab0a",
+            "host": "keybase.io",
+            "kid": "01204a2edeb1041a59ba905f82ebadc12ccf949a8309118a8d93bd9898ad4c4742ab0a",
+            "uid": "fe7cf0c68bc11861d8a29f7d3c3a5019",
+            "username": "stillalex"
+        },
+        "service": {
+            "hostname": "pfalabs.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.23"
+    },
+    "ctime": 1497082442,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1497082432,
+        "hash": "3226c96494f19bb6b233ad35efeaf033f303f242307157b0c1c0d1442dd4edbbaff38a73f8c70a5689afaff4279c4cfd03f06cb1dcfdff631e1ad1a126019763",
+        "seqno": 1159436
+    },
+    "prev": "4864c044bee2bd09ac95ab126497de3cd792a13fee029c42b7070bf8b97ef559",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgSi7esQQaWbqQX4LrrcEsz5SagwkRio2TvZiYrUxHQqsKp3BheWxvYWTFAvR7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNGEyZWRlYjEwNDFhNTliYTkwNWY4MmViYWRjMTJjY2Y5NDlhODMwOTExOGE4ZDkzYmQ5ODk4YWQ0YzQ3NDJhYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNGEyZWRlYjEwNDFhNTliYTkwNWY4MmViYWRjMTJjY2Y5NDlhODMwOTExOGE4ZDkzYmQ5ODk4YWQ0YzQ3NDJhYjBhIiwidWlkIjoiZmU3Y2YwYzY4YmMxMTg2MWQ4YTI5ZjdkM2MzYTUwMTkiLCJ1c2VybmFtZSI6InN0aWxsYWxleCJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoicGZhbGFicy5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIzIn0sImN0aW1lIjoxNDk3MDgyNDQyLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTcwODI0MzIsImhhc2giOiIzMjI2Yzk2NDk0ZjE5YmI2YjIzM2FkMzVlZmVhZjAzM2YzMDNmMjQyMzA3MTU3YjBjMWMwZDE0NDJkZDRlZGJiYWZmMzhhNzNmOGM3MGE1Njg5YWZhZmY0Mjc5YzRjZmQwM2YwNmNiMWRjZmRmZjYzMWUxYWQxYTEyNjAxOTc2MyIsInNlcW5vIjoxMTU5NDM2fSwicHJldiI6IjQ4NjRjMDQ0YmVlMmJkMDlhYzk1YWIxMjY0OTdkZTNjZDc5MmExM2ZlZTAyOWM0MmI3MDcwYmY4Yjk3ZWY1NTkiLCJzZXFubyI6NCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDxP+O4pZgX4yaQiP8+SConClNZLk5aKY4pb42QgOZQ/NEiQzk2d1DhCiwf5PPFNNPWUzjUXxoJZ2F/5HHfImYFqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQguTCcwXZyhD7fdLaVFa+If14aZ+UA47X/P7At4nWEHZGjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/stillalex
+
+==================================================================
